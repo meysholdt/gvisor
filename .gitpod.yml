@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.dockerfile
+tasks:
+- init: |
+     bazel build :gopath
+checkoutLocation: go/src/github.com/google/gvisor
+workspaceLocation: go/src/github.com/google/gvisor
